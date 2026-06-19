@@ -2,6 +2,10 @@
 
 An AI-powered Health Prediction System built using Machine Learning and Streamlit.
 
+## Overview
+
+This project predicts an individual's health status using machine learning based on clinical, lifestyle, and wellness-related parameters. The system provides health risk assessment through an interactive Streamlit web application and helps users better understand potential health concerns.
+
 ## Features
 
 * Health Status Prediction
@@ -23,16 +27,37 @@ An AI-powered Health Prediction System built using Machine Learning and Streamli
 ## Tech Stack
 
 * Python
+* NumPy
 * Pandas
+* Matplotlib
+* Seaborn
 * Scikit-Learn
 * AdaBoost
 * Streamlit
 * Joblib
 
-## Author
+## 🧠 Model Selection
 
-Ayush Kumar
+Multiple models were evaluated, including Decision Tree, Random Forest, and XGBoost.
 
-B.Tech Artificial Intelligence & Data Science
+AdaBoost was selected as the final model because it achieved the highest recall score of 96.79%.
 
-NIT Patna
+In healthcare-related applications, recall is particularly important because it helps minimize the number of at-risk individuals that are incorrectly classified as healthy.
+
+## 🚀 Live Demo
+
+https://ai-health-prediction-system-o9hsc3ist3rhnx5uvxw8xz.streamlit.app/
+
+## 📸 Screenshots
+
+![Snapshot of website](20260619_113304-COLLAGE.jpg)
+
+
+
+## 👨‍💻 Author
+
+**Ayush Kumar**
+
+B.Tech in Artificial Intelligence & Data Science
+
+National Institute of Technology (NIT) Patna
